@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yadhynesh Atkari | Portfolio</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==============================================
+       NAVIGATION BAR
+       ============================================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">Yadhynesh</a>
+      
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education & Activities</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         HERO SECTION
+         ============================================== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        
+        <!-- Profile Photo -->
+        <div class="profile-photo-wrapper">
+          <img src="images/profile.jpg" alt="Yadhynesh Atkari" class="profile-photo">
+          <span class="status-indicator" title="Open to Opportunities"></span>
+        </div>
+
+        <p class="greeting-badge">📍 Nagpur, Maharashtra • B.Tech in AI</p>
+        <h1 class="hero-title">Hi, I'm <span>Yadhynesh Atkari</span></h1>
+        <p class="hero-subtitle">Data Analyst & AI Graduate</p>
+        <p class="hero-description">
+          I enjoy working with data—writing SQL queries, finding patterns in numbers, and building clean reports and dashboards in Power BI and Excel. Here's a look at my internship experience, projects, and coursework.
+        </p>
+
+        <!-- Quick Contact Pills -->
+        <div class="hero-contact-pills">
+          <a href="mailto:Yadhyneshatkari@gmail.com" class="pill">
+            <span class="pill-icon">✉️</span> Yadhyneshatkari@gmail.com
+          </a>
+          <a href="tel:9075378293" class="pill">
+            <span class="pill-icon">📞</span> +91 9075378293
+          </a>
+          <a href="https://www.linkedin.com/in/yadhynesh-atkari-732867293" target="_blank" rel="noopener" class="pill">
+            <span class="pill-icon">💼</span> LinkedIn
+          </a>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">My Projects</a>
+          <a href="#experience" class="btn btn-secondary">Internship Experience</a>
+          <a href="#contact" class="btn btn-outline">Say Hello</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         ABOUT ME SECTION
+         ============================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">A quick introduction to who I am and what I enjoy working on</p>
+        
+        <div class="about-card">
+          <p>
+            I recently completed my <strong>B.Tech in Artificial Intelligence</strong> from <em>St. Vincent Pallotti College of Engineering and Technology, Nagpur</em> with a CGPA of <strong>7.6 / 10.0</strong>.
+          </p>
+          <p>
+            During my college years, I found myself drawn most to data analysis—taking raw spreadsheets and database tables, cleaning them up, and turning them into reports and visual dashboards that make sense to people.
+          </p>
+          <p>
+            Recently, I interned at <strong>MRSAC (Maharashtra Remote Sensing Applications Centre)</strong> where I worked with relational databases, wrote SQL queries to pull project insights, and helped generate reports for the team. Outside of academics, I've always liked being actively involved on campus as a core member for college technical fests and an NSS volunteer.
+          </p>
+          
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <span class="highlight-number">01</span>
+              <h4>What I Work With</h4>
+              <p>SQL (Joins, CTEs, Window Functions), Excel (Pivot Tables, Power Query), Power BI, and Python.</p>
+            </div>
+            <div class="highlight-box">
+              <span class="highlight-number">02</span>
+              <h4>My Focus</h4>
+              <p>Getting the data clean, validated, and properly structured before building visuals or models.</p>
+            </div>
+            <div class="highlight-box">
+              <span class="highlight-number">03</span>
+              <h4>Campus Involvement</h4>
+              <p>Core member of college technical event committees and an active volunteer with NSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         INTERNSHIP EXPERIENCE SECTION
+         ============================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Internship Experience</h2>
+        <p class="section-subtitle">Hands-on work experience from my recent internship</p>
+
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-role-company">
+              <div class="company-logo-badge">🏢</div>
+              <div>
+                <h3 class="exp-role">Data Analyst Intern</h3>
+                <h4 class="exp-company">MRSAC (Maharashtra Remote Sensing Applications Centre)</h4>
+              </div>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-duration">Dec 2025 – May 2026</span>
+              <span class="exp-location">📍 Nagpur, India</span>
+            </div>
+          </div>
+
+          <p class="exp-summary">
+            Worked on real project datasets, extracted information from relational databases, and prepared documentation and reports for organizational use.
+          </p>
+
+          <ul class="exp-points">
+            <li>
+              <strong>SQL & Databases:</strong> Wrote and optimized SQL queries, joins, and subqueries to pull required project records from relational database tables.
+            </li>
+            <li>
+              <strong>Reporting with Excel:</strong> Prepared project reports and business documentation using Microsoft Excel (Pivot Tables, formulas) and Word.
+            </li>
+            <li>
+              <strong>Data Validation:</strong> Coordinated with team members to verify figures, resolve discrepancies, and ensure data records were accurate.
+            </li>
+            <li>
+              <strong>Organization:</strong> Maintained organized documentation and helped keep project records up to date.
+            </li>
+          </ul>
+
+          <div class="exp-tags">
+            <span>SQL</span>
+            <span>Relational Databases</span>
+            <span>MS Excel</span>
+            <span>Pivot Tables</span>
+            <span>Data Validation</span>
+            <span>Reporting</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         PROJECTS SECTION
+         ============================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects I've Built</h2>
+        <p class="section-subtitle">A few practical projects I worked on during my studies</p>
+
+        <div class="projects-grid">
+          <!-- Project 1: Pneumonia Detection Using CNN -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <div class="project-meta-top">
+                <span class="project-badge">Deep Learning & CNN</span>
+                <span class="project-date">Computer Vision</span>
+              </div>
+              <h3>Pneumonia Detection Using Machine Learning & CNN</h3>
+            </div>
+            <p class="project-description">
+              An AI-based diagnostic system using Convolutional Neural Networks (CNN) to classify chest X-ray images into Pneumonia or Normal.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Handled image preprocessing, dataset preparation, resizing, and data augmentation for medical images.</li>
+              <li>Developed and trained a CNN model using Python and TensorFlow/Keras for automated classification.</li>
+              <li>Evaluated model performance using accuracy, loss curves, confusion matrices, and precision/recall metrics.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>TensorFlow / Keras</span>
+              <span>CNN</span>
+              <span>Computer Vision</span>
+              <span>NumPy & Pandas</span>
+            </div>
+          </div>
+
+          <!-- Project 2: DDoS Attack Detection -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <div class="project-meta-top">
+                <span class="project-badge">Machine Learning</span>
+                <span class="project-date">Mar 2025 – Jun 2025</span>
+              </div>
+              <h3>DDoS Attack Detection Using Machine Learning</h3>
+            </div>
+            <p class="project-description">
+              A machine learning classification project to detect Distributed Denial-of-Service (DDoS) attacks in network traffic datasets.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Cleaned and preprocessed raw network traffic data, handling missing values and scaling features.</li>
+              <li>Selected key traffic features and trained supervised learning algorithms to classify normal vs malicious traffic.</li>
+              <li>Checked model performance using accuracy scores, confusion matrices, and classification metrics.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Scikit-learn</span>
+              <span>Data Preprocessing</span>
+            </div>
+          </div>
+
+          <!-- Project 2: OLA Ride Booking Analytics -->
+          <div class="project-card featured">
+            <div class="project-header">
+              <div class="project-meta-top">
+                <span class="project-badge">Data Analysis & BI</span>
+                <span class="project-date">Jan 2026 – Feb 2026</span>
+              </div>
+              <h3>OLA Ride Booking Analytics Dashboard</h3>
+            </div>
+            <p class="project-description">
+              An end-to-end data analysis project exploring over <strong>100,000 ride booking records</strong> to understand booking trends and cancellation patterns.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Wrote SQL queries using Joins, CTEs, Window Functions, and aggregations to calculate ride statistics and customer trends.</li>
+              <li>Built an interactive Power BI dashboard tracking Total Bookings, Revenue, Cancellation Rate, and Ride Success Rate.</li>
+              <li>Summarized practical takeaways on peak demand hours and reasons behind customer cancellations.</li>
+            </ul>
+            <div class="project-tags">
+              <span>Power BI</span>
+              <span>SQL</span>
+              <span>PostgreSQL</span>
+              <span>Excel</span>
+              <span>Data Visualization</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Personal Portfolio -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-meta-top">
+                <span class="project-badge">Web Development</span>
+                <span class="project-date">2026</span>
+              </div>
+              <h3>Personal Portfolio Website</h3>
+            </div>
+            <p class="project-description">
+              Built my personal portfolio from scratch using HTML5, CSS3, and JavaScript to showcase my work, resume, and experience online.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Designed a clean, responsive layout that works smoothly on phones, tablets, and laptops.</li>
+              <li>Added an interactive Dark/Light theme switch that remembers user preference using localStorage.</li>
+              <li>Practicing front-end fundamentals so I can build my own web dashboards for future data projects.</li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+            </div>
+            <div class="project-links">
+              <a href="#hero" class="project-link">Viewing Right Now →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SKILLS SECTION
+         ============================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <p class="section-subtitle">Technologies and tools I work with regularly</p>
+
+        <div class="skills-categorized-grid">
+          <!-- Category 1: Data Analysis -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <span class="cat-icon">📈</span>
+              <h3>Data Analysis & Databases</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>SQL:</strong> Joins, CTEs, Window Functions, Subqueries</li>
+              <li><strong>PostgreSQL:</strong> Database queries & table management</li>
+              <li><strong>MS Excel:</strong> Pivot Tables, XLOOKUP, INDEX-MATCH, Power Query</li>
+              <li><strong>Data Cleaning:</strong> Handling missing values, formatting, validation</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Visualization -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <span class="cat-icon">📊</span>
+              <h3>Visualization & Reporting</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Power BI:</strong> Interactive dashboards, KPI cards, visual reports</li>
+              <li><strong>Tableau:</strong> Chart design and visual exploration</li>
+              <li><strong>MS Office:</strong> Excel, Word, and PowerPoint reporting</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Programming & Frameworks -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <span class="cat-icon">💻</span>
+              <h3>Programming & Libraries</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Python:</strong> Scripting, Pandas, NumPy, Matplotlib</li>
+              <li><strong>Deep Learning:</strong> TensorFlow, Keras, CNN Architectures</li>
+              <li><strong>Web Basics:</strong> HTML5, CSS3, JavaScript (DOM, layout)</li>
+            </ul>
+          </div>
+
+          <!-- Category 4: AI & Teamwork -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <span class="cat-icon">🧠</span>
+              <h3>AI, ML & Soft Skills</h3>
+            </div>
+            <ul class="skill-list">
+              <li><strong>Machine Learning:</strong> Supervised classification, confusion matrix</li>
+              <li><strong>Computer Vision:</strong> Image preprocessing, augmentation, medical imaging</li>
+              <li><strong>Collaboration:</strong> Event coordination, team communication, organization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         EDUCATION, CERTIFICATIONS & LEADERSHIP
+         ============================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education & Activities</h2>
+        <p class="section-subtitle">Academic background, certifications, and college involvement</p>
+
+        <div class="education-grid">
+          <!-- Education Column -->
+          <div class="edu-column">
+            <h3 class="edu-col-title">🎓 Education</h3>
+            
+            <div class="timeline-card">
+              <span class="timeline-badge">2022 – 2026</span>
+              <h4>B.Tech in Artificial Intelligence</h4>
+              <p class="timeline-inst">St. Vincent Pallotti College of Engineering and Technology, Nagpur</p>
+              <p class="timeline-score"><strong>CGPA:</strong> 7.6 / 10.0</p>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-badge">2020 – 2022</span>
+              <h4>Higher Secondary Certificate (HSC)</h4>
+              <p class="timeline-inst">St. Paul Jr. College, Maharashtra State Board</p>
+              <p class="timeline-score"><strong>Score:</strong> 83.33%</p>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-badge">2019 – 2020</span>
+              <h4>Secondary School Certificate (SSC)</h4>
+              <p class="timeline-inst">Saket Convent, Maharashtra State Board</p>
+              <p class="timeline-score"><strong>Score:</strong> 84.20%</p>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="edu-column">
+            <h3 class="edu-col-title">📜 Certifications</h3>
+
+            <div class="cert-card">
+              <div class="cert-icon">🏛️</div>
+              <div>
+                <h4>Artificial Intelligence and Machine Learning Fundamentals (Python)</h4>
+                <p class="cert-issuer">IIT Kharagpur (2023)</p>
+                <span class="cert-year">Completed</span>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">📘</div>
+              <div>
+                <h4>Introduction to Machine Learning</h4>
+                <p class="cert-issuer">NPTEL</p>
+                <span class="cert-year">Certified</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Campus Involvement Column -->
+          <div class="edu-column">
+            <h3 class="edu-col-title">🤝 Campus Involvement</h3>
+
+            <div class="leadership-card">
+              <div class="leadership-header">
+                <span class="leadership-icon">⚡</span>
+                <div>
+                  <span class="timeline-badge">Core Member</span>
+                  <h4>College Technical & Departmental Events</h4>
+                  <p class="timeline-inst">St. Vincent Pallotti College of Engineering</p>
+                </div>
+              </div>
+              <p class="leadership-desc">
+                Contributed as a core committee member organizing departmental tech events and student competitions. Helped manage event scheduling, technical setups, and team coordination.
+              </p>
+              <div class="leadership-tags">
+                <span>Event Coordination</span>
+                <span>Teamwork</span>
+              </div>
+            </div>
+
+            <div class="leadership-card">
+              <div class="leadership-header">
+                <span class="leadership-icon">🌱</span>
+                <div>
+                  <span class="timeline-badge">Volunteer</span>
+                  <h4>National Service Scheme (NSS)</h4>
+                  <p class="timeline-inst">NSS Unit, SVPCET Nagpur</p>
+                </div>
+              </div>
+              <p class="leadership-desc">
+                Active volunteer participating in blood donation drives, tree plantation campaigns, and community awareness activities organized on campus and locally.
+              </p>
+              <div class="leadership-tags">
+                <span>Community Service</span>
+                <span>Volunteering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         CONTACT SECTION
+         ============================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Have an opportunity, question, or just want to connect? Feel free to reach out!</p>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Details -->
+          <div class="contact-info-card">
+            <h3>Contact Details</h3>
+            <p>I'm always open to discussing new opportunities, data projects, or connecting with fellow developers:</p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <p>Nagpur, Maharashtra, India</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">✉️</span>
+                <div>
+                  <strong>Email</strong>
+                  <p><a href="mailto:Yadhyneshatkari@gmail.com">Yadhyneshatkari@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">📞</span>
+                <div>
+                  <strong>Phone</strong>
+                  <p><a href="tel:9075378293">+91 9075378293</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">💼</span>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <p><a href="https://www.linkedin.com/in/yadhynesh-atkari-732867293" target="_blank" rel="noopener">linkedin.com/in/yadhynesh-atkari-732867293</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <p id="form-feedback" class="form-feedback"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Yadhynesh Atkari. Built with HTML, CSS & JavaScript.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/yadhynesh-atkari-732867293" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:Yadhyneshatkari@gmail.com">Email</a>
+        <a href="tel:9075378293">Call</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
